@@ -1,0 +1,64 @@
+<html>
+	<head> 
+		<title> Welcome to 10000 Coders Programming Challenge </title>
+		<link rel="stylesheet" type= "text/css" href= "style.css">
+	</head>
+	<body>
+		<div class= "img-container">
+			<img style="text-align: middle" width= "150" src= "10000 Coders logo.jpg" alt = "10000 Coders Logo">
+		</div>
+		<h1 id = "paragraph_1" class = "paragraph_1" align = "middle"> Welcome to 10000 Coders Programming Challenge </h1>
+		<p> Hello guys,</p>
+		<p> Welcome to the HTML/CSS programming exercise by 10000 Coders. This will test your basics in HTML 
+		and CSS. You need to recreate the document you are reading now using HTML/CSS. <span id = "paragraph_2" class = "paragraph_2"> Make sure that the page looks exactly like this document. </span>
+		
+		<h3 id = "paragraph_1" class = "paragraph_1"> General Instructions </h3>
+		<ol type= "1"> 
+			<li> There will be a 15px margin between all elements in the form shown below </li>
+			<li> Use external CSS for styling </li>
+			<li> This exercise will cover the following constructs of HTML 
+				<ul style="list-style-type: disc;"> 
+					<li> HTML form </li>
+					<li> Text inputs with placeholders </li>
+					<li> Text area </li>
+					<li> Password input </li>
+					<li> Select drop-down box </li>
+					<li> Radio Buttons </li>
+					<li> Checkboxes and </li>
+					<li> Buttons </li>
+				</ul>
+			</li>
+		</ol>
+		<p align= "center"> <b> So, let's get started. All the best !</b></p>
+		<form margin ="15">
+		
+		<label for= "fullname"> Full Name  </label>
+		<input type= "text" id = "fullname" value = "Enter your first name "/> <br><br>
+		
+		<label for= "secretpin"> Secret Pin  </label>
+		<input type= "password" id = "secretpin" value = "Enter your secret pin"/><br><br>
+		
+		<label> Gender</label>
+		<input type="radio" name="gender" value="male"> Male
+		<input type="radio" name="gender" value="female"> Female <br> <br>
+		
+		<label> I am an expert in </label>
+		<input type="checkbox"> HTML
+		<input type="checkbox"> CSS <br><br>
+		
+		<label> My field of Study is </label>
+		<select style="border:1px solid green">
+			<option>Select your branch using this select drop-down</option>
+		</select>
+		<br><br>
+		
+		<label> Tell me about yourself</label>
+		<textarea rows = 5 cols= 50 style="border:1px solid green">
+		This is text area. Enter your description
+		</textarea> <br> <br>
+		
+		<input type= "submit" value= "Submit Form">
+		</form>
+	</body>
+
+</html>
